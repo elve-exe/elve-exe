@@ -1,8 +1,13 @@
+
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <div class="index">
 
     <div class="content-wrapper">
         <div class="logo-container">
-        <a href="/"><img src="/Logo.png" alt=""></a>
+        <a href="/elve-exe/"><img src="/Logo.png" alt=""></a>
         
         </div>
 
