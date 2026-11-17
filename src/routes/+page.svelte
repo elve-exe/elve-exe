@@ -12,7 +12,7 @@
         </div>
 
         <div class="text-box">
-            <h1>Hi! My name is Elvina! <br> I like to develop games and make art :)</h1>
+            <h1>Hi! My name is El! <br> I like to develop games and make art :)</h1>
         </div>
     </div>	
     
