@@ -1,3 +1,7 @@
+<script>
+    import { resolve } from '$app/paths';
+</script>
+
 <div>
     <nav>
         <div class="forward-links">
@@ -10,7 +14,7 @@
         </div>
         </div>
     </nav>
-    <div class="logo"><img src="/Logo.png" alt=""></div>
+    <div class="logo"><img src={resolve('/Logo.png')} alt=""></div>
 </div>
 
 <section id="DigitalArt">
@@ -43,40 +47,40 @@
 <div id="gallery">
 <div class="gallery">
     <div class="image-container">
-        <img src="/dance.png" alt=" 1">
+        <img src={resolve('/dance.png')} alt=" 1">
     </div>
     <div class="image-container">
-        <img src="/Eyes.png" alt="2">
+        <img src={resolve('/Eyes.png')} alt="2">
     </div>
     <div class="image-container">
-        <img src="/dar.png" alt="3">
+        <img src={resolve('/dar.png')} alt="3">
     </div>
     <div class="image-container">
-        <img src="/moth.png" alt="4">
+        <img src={resolve('/moth.png')} alt="4">
     </div>
     <div class="image-container">
-        <img src="/character.png" alt="4">
+        <img src={resolve('/character.png')} alt="4">
     </div>
     <div class="image-container">
-        <img src="/half life.png" alt="4">
+        <img src={resolve('/half life.png')} alt="4">
     </div>
     <div class="image-container">
-        <img src="/Toothbrush.png" alt="4">
+        <img src={resolve('/Toothbrush.png')} alt="4">
     </div>
     <div class="image-container">
-        <img src="/dudd.png" alt="4">
+        <img src={resolve('/dudd.png')} alt="4">
     </div>
     <div class="image-container">
-        <img src="/rainn.png" alt="4">
+        <img src={resolve('/rainn.png')} alt="4">
     </div>
     <div class="image-container">
-        <img src="/foxxig.png" alt="4">
+        <img src={resolve('/foxxig.png')} alt="4">
     </div>
     <div class="image-container">
-        <img src="/Mew.png" alt="4">
+        <img src={resolve('/Mew.png')} alt="4">
     </div>
     <div class="image-container">
-        <img src="/eyre.png" alt="4">
+        <img src={resolve('/eyre.png')} alt="4">
     </div>
 </div>
 </div>
@@ -105,7 +109,7 @@
 
 <div class="witch">
     <div class="first-image">
-        <img src="/photo-combo.png" alt="This should show art:(">
+        <img src={resolve('/photo-combo.png')} alt="This should show art:(">
     </div>
     <div class="image-box">
     <div class="text-section">
@@ -127,7 +131,7 @@
     </div>
     </div>
     <div class="second-image">
-        <img src="/creatures.png" alt="This should show art:(">
+        <img src={resolve('/creatures.png')} alt="This should show art:(">
     </div>
 </div>
 
@@ -179,7 +183,7 @@
 <div class="video-leaves">
     <dev class="image-box">
         <video controls autoplay loop muted>
-            <source src="/leaves.mp4" type="video/mp4">
+            <source src={resolve('/leaves.mp4')} type="video/mp4">
             <track kind="captions" src="" srclang="en" label="English">
             Your browser does not support the video.
         </video>
@@ -217,7 +221,7 @@
     <dev class="video-brain">
         <dev class="image-box">
             <video controls autoplay loop muted> <!-- Probably needs better way than pixels height="570px" -->
-                <source src="/BrainVideo.mp4" type="video/mp4">
+                <source src={resolve('/BrainVideo.mp4')} type="video/mp4">
                 <track kind="captions" src="" srclang="en" label="English">
                 Your browser does not support the video.
             </video>
@@ -258,7 +262,7 @@
     <dev class="video-greenhouse">
         <dev class="image-box">
             <video controls autoplay loop muted>
-                <source src="/Greenhouse.mp4" type="video/mp4">
+                <source src={resolve('/Greenhouse.mp4')} type="video/mp4">
                 <track kind="captions" src="" srclang="en" label="English">
                 Your browser does not support the video.
             </video>
@@ -297,7 +301,7 @@
 <dev class="stars-video">
         <dev class="image-box">
             <div class="star-image">
-            <img src="starsPic.png" alt="This should show art:("><img src="stars.png" alt="This should show art:("> </div>
+            <img src={resolve('/starsPic.png')} alt="This should show art:("><img src={resolve('/stars.png')} alt="This should show art:("> </div>
         </dev>
 </dev>
 
@@ -338,22 +342,22 @@
     <div class="gallery-second">
         <div class="gallery">
         <div class="image-container">
-            <img src="/bell-collar.png" alt=" 1">
+            <img src={resolve('/bell-collar.png')} alt=" 1">
         </div>
         <div class="image-container">
-            <img src="/photo-album.png" alt="2">
+            <img src={resolve('/photo-album.png')} alt="2">
         </div>
         <div class="image-container">
-            <img src="/horse.png" alt="3">
+            <img src={resolve('/horse.png')} alt="3">
         </div>
         <div class="image-container">
-            <img src="/creature-close.png" alt="4">
+            <img src={resolve('/creature-close.png')} alt="4">
         </div>
         <div class="image-container">
-            <img src="/klumpe.png" alt="4">
+            <img src={resolve('/klumpe.png')} alt="4">
         </div>
         <div class="image-container">
-            <img src="/creature-far.png" alt="4">
+            <img src={resolve('/creature-far.png')} alt="4">
         </div>
         </div>
     </div>

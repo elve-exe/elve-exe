@@ -1,6 +1,10 @@
+<script>
+    import { resolve } from '$app/paths';
+</script>
+
 <div class="about-box">
             
-    <a href="/"><img src="/Logo.png" alt=""></a>
+    <a href={resolve('/')}><img src={resolve('/Logo.png')} alt=""></a>
     <h1>About me</h1>
     <h2>My name is Elvina and I have a passion. </h2>
 

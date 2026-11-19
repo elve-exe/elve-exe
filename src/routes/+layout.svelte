@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores'; 
+	import { resolve } from '$app/paths';
 	import '../Styles/global.css';
   
 	let showDropdown = false;
@@ -21,19 +22,19 @@
 			<nav>
 			<div class="nav-links">
 				<ul>
-				<li><a href="/">Home</a></li>
+				<li><a href={resolve('/')}>Home</a></li>
 				<li class="dropdown">
-					<a href="/work" class="dropbtn">My Work</a>
+					<a href={resolve('/work')} class="dropbtn">My Work</a>
 		
 					<!-- Dropdown content that shows on hover -->
 					<ul class="dropdown-content">
-					<li><a href="/work#DigitalArt">Digital Art</a></li>
-					<li><a href="/work#game-development">Game Development</a></li>
-					<li><a href="/work#3D">3D Modelling</a></li>
+					<li><a href={resolve('/work#DigitalArt')}>Digital Art</a></li>
+					<li><a href={resolve('/work#game-development')}>Game Development</a></li>
+					<li><a href={resolve('/work#3D')}>3D Modelling</a></li>
 					</ul>
 				</li>
-				<li><a href="/about">About Me</a></li>
-				<li><a href="/contact">Contact</a></li>
+				<li><a href={resolve('/about')}>About Me</a></li>
+				<li><a href={resolve('/contact')}>Contact</a></li>
 				</ul>
 			</div>
 			</nav>

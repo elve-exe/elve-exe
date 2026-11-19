@@ -1,13 +1,13 @@
 
 <script>
-    import { base } from '$app/paths';
+    import { resolve } from '$app/paths';
 </script>
 
 <div class="index">
 
     <div class="content-wrapper">
         <div class="logo-container">
-        <a href="/elve-exe/"><img src="/Logo.png" alt=""></a>
+        <a href={resolve('/')}><img src={resolve('/Logo.png')} alt=""></a>
         
         </div>
 
@@ -21,28 +21,28 @@
 
 <div class="image-rows">
     <div class="image-row-1" data-sveltekit-preload-data>
-        <a href="/work#DigitalArt" class="image-box">
-            <img src="/character.png" alt="This should show art :,)">
-            <img src="/Witch break.png" alt="This should show art :,)">
-            <img src="/wolf.png" alt="This should show art :,)">
+        <a href={resolve('/work#DigitalArt')} class="image-box">
+            <img src={resolve('/character.png')} alt="This should show art :,)">
+            <img src={resolve('/Witch break.png')} alt="This should show art :,)">
+            <img src={resolve('/wolf.png')} alt="This should show art :,)">
             <h4 class="overlay-text">Digital Art</h4>
         </a>
     </div>
 
     <div class="image-row-1" data-sveltekit-preload-data>
-        <a href="/work#game-development" class="image-box">
-            <img src="/game.png" alt="This should show art :,)">
-            <img src="/plant.png" alt="This should show art :,)">
-            <img src="/paintingg.jpg" alt="This should show art :,)">
+        <a href={resolve('/work#game-development')} class="image-box">
+            <img src={resolve('/game.png')} alt="This should show art :,)">
+            <img src={resolve('/plant.png')} alt="This should show art :,)">
+            <img src={resolve('/paintingg.jpg')} alt="This should show art :,)">
             <h4 class="overlay-text">Game Development</h4>
         </a>
     </div>
 
     <div class="image-row-1" data-sveltekit-preload-data>
-        <a href="/work#3D" class="image-box">   
-            <img src="/3dclose.png" alt="This should show art :,)">
-            <img src="/book.png" alt="This should show art :,)">
-            <img src="/creature.png" alt="This should show art :,)">
+        <a href={resolve('/work#3D')} class="image-box">   
+            <img src={resolve('/3dclose.png')} alt="This should show art :,)">
+            <img src={resolve('/book.png')} alt="This should show art :,)">
+            <img src={resolve('/creature.png')} alt="This should show art :,)">
             <h4 class="overlay-text">3D Modelling</h4>
         </a>
     </div>
